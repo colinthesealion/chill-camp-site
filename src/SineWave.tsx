@@ -102,13 +102,13 @@ const SineWave: React.FunctionComponent<Props> = ({ classes }) => {
             />
         );
     }
-    for (let i = 0; i < count; i++) {
+    for (let i = 1; i < count; i++) {
         children.push(
             <animated.div
                 key={count + i}
                 className={classes.box}
                 style={{
-                    left: (count + i) * styleSheet.box.width,
+                    left: (count + i - 1) * styleSheet.box.width,
                     ...trail[count - 1 - i],
                     ...color,
                 }}
@@ -121,7 +121,7 @@ const SineWave: React.FunctionComponent<Props> = ({ classes }) => {
         <div
             className={classes.container}
             style={{
-                width: 2 * count * styleSheet.box.width,
+                width: (2 * count - 1) * styleSheet.box.width,
                 height,
             }}
         >
