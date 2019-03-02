@@ -14,7 +14,6 @@ interface Props extends RouteComponentProps {
 const About: React.FunctionComponent<Props> = ({ classes }) => {
     return (
         <>
-            <Hamburger />
             <div className={classes.container}>
                 <div className={classes.content}>
                     <p>
