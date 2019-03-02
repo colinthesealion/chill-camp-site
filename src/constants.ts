@@ -1,4 +1,4 @@
-export const CAMP_NAME = 'Take a Chilli Pill';
+export const CAMP_NAME = 'Slow Roll';
 
 export const ROUTES = [
     'about',
