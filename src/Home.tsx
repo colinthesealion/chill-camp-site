@@ -2,7 +2,7 @@ import React from 'react';
 import { RouteComponentProps } from '@reach/router';
 import injectSheet from 'react-jss';
 
-import SineWave from './SineWave';
+import SineWave from './Wave';
 import styleSheet from './Home.css';
 import { CAMP_NAME } from './constants';
 import NavBar from './NavBar';

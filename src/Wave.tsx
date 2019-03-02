@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { animated, config, useSpring, useTrail } from 'react-spring';
 import injectSheet from 'react-jss';
 
-import styleSheet from './SineWave.css';
+import styleSheet from './Wave.css';
 
 type Next<T> = (args: T) => Promise<T>;
 interface Props {
