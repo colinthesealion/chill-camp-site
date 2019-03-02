@@ -23,6 +23,9 @@ const NavBar: React.FunctionComponent<Props> = ({ classes }) => {
                     </Link>
                 </span>
             ))}
+            <span key="github" className={classes.link}>
+                <a href="https://github.com/colinthesealion/chill-camp-site">source</a>
+            </span>
         </nav>
     );
 };

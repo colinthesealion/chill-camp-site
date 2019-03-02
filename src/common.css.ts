@@ -10,16 +10,13 @@ const styles: Readonly<{ [key: string]: Readonly<{ [key: string]: any}> }> = {
         width: '80%',
         height: 'min-content',
         left: '10%',
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
     },
     content: {
         borderRadius: 15,
         backgroundColor: COLORS.foreground,
         color: COLORS.background,
         padding: 20,
+        marginBottom: 15,
     },
 };
 
