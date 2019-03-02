@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React from 'react';
 import { animated, config, useSpring, useTrail } from 'react-spring';
 import injectSheet from 'react-jss';
 
@@ -18,19 +18,8 @@ const getCount = () => {
 };
 
 const SineWave: React.FunctionComponent<Props> = ({ classes }) => {
-    const [ count, setCount ] = useState(
-        getCount()
-    );
-    const handleResize = useCallback(() => {
-        setCount(getCount());
-    }, [setCount]);
-
-    useEffect(() => {
-        document.addEventListener('resize', handleResize);
-        return () => {
-            document.removeEventListener('resize', handleResize);
-        };
-    }, [ handleResize ]);
+    // TODO: this value should change on window resize
+    const count = getCount();
 
     const fromPosition = {
         top: 200,
