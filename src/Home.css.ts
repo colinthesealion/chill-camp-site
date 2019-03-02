@@ -23,6 +23,11 @@ const styles: Readonly<{ [key: string]: Readonly<{ [key: string]: any}> }> = {
         width: 'min-content',
         whiteSpace: 'nowrap',
         zIndex: 100,
+        textAlign: 'center',
+        lineHeight: 0.75,
+    },
+    subheader: {
+        fontSize: 18,
     },
 };
 

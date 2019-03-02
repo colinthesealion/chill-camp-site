@@ -15,7 +15,13 @@ const Home: React.FunctionComponent<Props> = ({ classes }) => {
     return (
         <div className={classes.container}>
           <div className={classes.content}>
-            <div className={classes.header}>{CAMP_NAME}</div>
+            <div className={classes.header}>
+              {CAMP_NAME}
+              <br />
+              <span className={classes.subheader}>
+                a theme camp
+              </span>
+            </div>
             <SineWave />
           </div>
         </div>
