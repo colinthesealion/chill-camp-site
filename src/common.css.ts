@@ -11,6 +11,7 @@ const styles: Readonly<{ [key: string]: Readonly<{ [key: string]: any}> }> = {
         height: 'min-content',
         left: '10%',
         display: 'flex',
+        flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
     },
