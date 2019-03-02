@@ -4,6 +4,7 @@ import injectSheet from 'react-jss';
 
 import SineWave from './SineWave';
 import styleSheet from './Home.css';
+import { CAMP_NAME } from './constants';
 
 interface Props extends RouteComponentProps {
   classes: {
@@ -12,9 +13,11 @@ interface Props extends RouteComponentProps {
 };
 const Home: React.FunctionComponent<Props> = ({ classes }) => {
     return (
-        <div>
-          <h1 className={classes.header}>Take a Chili Pill</h1>
-          <SineWave />
+        <div className={classes.container}>
+          <div className={classes.content}>
+            <div className={classes.header}>{CAMP_NAME}</div>
+            <SineWave />
+          </div>
         </div>
     );
 };

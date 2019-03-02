@@ -1,8 +1,6 @@
 const styles = {
     container: {
-        position: 'absolute',
-        top: '50%',
-        left: 25,
+        position: 'relative',
     },
     box: {
         position: 'absolute',

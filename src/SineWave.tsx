@@ -121,9 +121,8 @@ const SineWave: React.FunctionComponent<Props> = ({ classes }) => {
         <div
             className={classes.container}
             style={{
-                width: count * styleSheet.box.width,
+                width: 2 * count * styleSheet.box.width,
                 height,
-                marginTop: -height / 2,
             }}
         >
             {children}

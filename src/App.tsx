@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Link, RouteComponentProps } from '@reach/router';
+import { Router } from '@reach/router';
 
 import Home from './Home';
 
