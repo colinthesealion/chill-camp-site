@@ -5,6 +5,7 @@ import injectSheet from 'react-jss';
 import SineWave from './SineWave';
 import styleSheet from './Home.css';
 import { CAMP_NAME } from './constants';
+import NavBar from './NavBar';
 
 interface Props extends RouteComponentProps {
   classes: {
@@ -23,6 +24,7 @@ const Home: React.FunctionComponent<Props> = ({ classes }) => {
               </span>
             </div>
             <SineWave />
+            <NavBar />
           </div>
         </div>
     );
