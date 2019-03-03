@@ -1,3 +1,5 @@
+import { COLORS } from './constants';
+
 const styles: Readonly<{ [key: string]: Readonly<{ [key: string]: any }> }> = {
   container: {
     position: 'relative',
@@ -14,7 +16,7 @@ const styles: Readonly<{ [key: string]: Readonly<{ [key: string]: any }> }> = {
     alignItems: 'center',
   },
   header: {
-    color: '#221122',
+    color: COLORS.background,
     padding: 15,
     borderRadius: 10,
     backgroundColor: 'rgba(150, 123, 182, 0.9)',

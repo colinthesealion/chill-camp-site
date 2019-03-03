@@ -16,7 +16,7 @@ const getCount = () => {
   return count;
 };
 
-const SineWave: React.FunctionComponent<Props> = ({ classes }) => {
+const Wave: React.FunctionComponent<Props> = ({ classes }) => {
   // TODO: this value should change on window resize
   const count = getCount();
 
@@ -118,4 +118,4 @@ const SineWave: React.FunctionComponent<Props> = ({ classes }) => {
   );
 };
 
-export default injectSheet(styleSheet)(React.memo(SineWave));
+export default injectSheet(styleSheet)(React.memo(Wave));

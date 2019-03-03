@@ -1,4 +1,4 @@
-const styles = {
+const styles: Readonly<{ [key: string]: Readonly<{ [key: string]: any }> }> = {
   container: {
     position: 'relative',
   },

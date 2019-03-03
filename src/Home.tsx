@@ -2,7 +2,7 @@ import React from 'react';
 import { RouteComponentProps } from '@reach/router';
 import injectSheet from 'react-jss';
 
-import SineWave from './Wave';
+import Wave from './Wave';
 import styleSheet from './Home.css';
 import { CAMP_NAME } from './constants';
 import NavBar from './NavBar';
@@ -21,7 +21,7 @@ const Home: React.FunctionComponent<Props> = ({ classes }) => {
           <br />
           <span className={classes.subheader}>a theme camp</span>
         </div>
-        <SineWave />
+        <Wave />
         <NavBar />
       </div>
     </div>
