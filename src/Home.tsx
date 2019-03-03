@@ -9,25 +9,23 @@ import NavBar from './NavBar';
 
 interface Props extends RouteComponentProps {
   classes: {
-      [key: string]: string,
-  },
-};
+    [key: string]: string;
+  };
+}
 const Home: React.FunctionComponent<Props> = ({ classes }) => {
-    return (
-        <div className={classes.container}>
-          <div className={classes.content}>
-            <div className={classes.header}>
-              {CAMP_NAME}
-              <br />
-              <span className={classes.subheader}>
-                a theme camp
-              </span>
-            </div>
-            <SineWave />
-            <NavBar />
-          </div>
+  return (
+    <div className={classes.container}>
+      <div className={classes.content}>
+        <div className={classes.header}>
+          {CAMP_NAME}
+          <br />
+          <span className={classes.subheader}>a theme camp</span>
         </div>
-    );
+        <SineWave />
+        <NavBar />
+      </div>
+    </div>
+  );
 };
 
 export default injectSheet(styleSheet)(React.memo(Home));
