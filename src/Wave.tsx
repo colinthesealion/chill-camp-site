@@ -4,7 +4,7 @@ import injectSheet from 'react-jss';
 
 import styleSheet from './Wave.css';
 
-type Next<T> = (args: T) => Promise<T>;
+type Next<T> = (args: T) => Promise<void>;
 interface Props {
   classes: {
     [key: string]: string;
