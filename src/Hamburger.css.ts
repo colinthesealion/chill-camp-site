@@ -33,6 +33,11 @@ const styles: Readonly<{ [key: string]: Readonly<{ [key: string]: any }> }> = {
     float: 'right',
     cursor: 'pointer',
   },
+  '@media (max-width:480px)': {
+    container: {
+      width: '30%',
+    },
+  },
 };
 
 export default styles;
