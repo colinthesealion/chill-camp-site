@@ -46,6 +46,18 @@ const About: React.FunctionComponent<Props> = ({ classes }) => {
           </a>
           .
         </p>
+        <p>
+          This website was built with{' '}
+          <a href="https://facebook.github.io/create-react-app/">
+            Create React App
+          </a>{' '}
+          and published using <a href="https://zeit.co/now">now.sh</a>. The code
+          is open source and available on{' '}
+          <a href="https://github.com/colinthesealion/chill-camp-site">
+            github
+          </a>
+          .
+        </p>
       </div>
     </div>
   );
