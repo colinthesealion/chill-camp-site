@@ -26,6 +26,10 @@ const services: EventProps[] = [
     description:
       "Enjoy a hot cuppa. We're happy to serve you when someone's around, but otherwise help yourself.",
   },
+  {
+    name: 'Black Rock House of Pizza',
+    description: 'Late night pizza delivery.',
+  },
 ];
 const Services: React.FunctionComponent<Props> = ({ classes }) => {
   return (
