@@ -39,6 +39,13 @@ const About: React.FunctionComponent<Props> = ({ classes }) => {
           </Link>{' '}
           for more details.
         </p>
+        <p>
+          For more information, please contact{' '}
+          <a href="mailto:docto.responsible@gmail.com" className={classes.link}>
+            Dr. Responsible
+          </a>
+          .
+        </p>
       </div>
     </div>
   );
