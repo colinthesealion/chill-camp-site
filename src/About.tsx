@@ -48,12 +48,21 @@ const About: React.FunctionComponent<Props> = ({ classes }) => {
         </p>
         <p>
           This website was built with{' '}
-          <a href="https://facebook.github.io/create-react-app/">
+          <a
+            href="https://facebook.github.io/create-react-app/"
+            className={classes.link}
+          >
             Create React App
           </a>{' '}
-          and published using <a href="https://zeit.co/now">now.sh</a>. The code
-          is open source and available on{' '}
-          <a href="https://github.com/colinthesealion/chill-camp-site">
+          and published using{' '}
+          <a href="https://zeit.co/now" className={classes.link}>
+            now.sh
+          </a>
+          . The code is open source and available on{' '}
+          <a
+            href="https://github.com/colinthesealion/chill-camp-site"
+            className={classes.link}
+          >
             github
           </a>
           .
