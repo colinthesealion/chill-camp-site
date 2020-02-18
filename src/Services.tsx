@@ -12,23 +12,13 @@ interface Props extends RouteComponentProps {
 }
 const services: EventProps[] = [
   {
-    name: "Doc's Lullaby Service",
-    description:
-      'Come get tucked in to a cozy bed and fall asleep as one of our trained bedtime specialists reads you a story or sings you a lullaby. House calls available upon request.',
-  },
-  {
     name: 'Healing Arts',
     description:
-      'We will offer: craniosacral therapy, massage, reiki and guided meditation. Please stop by to schedule a session with Alyssa or Misha.',
+      'We will offer: craniosacral therapy, massage, reiki, guided meditation and biofield tuning. Please stop by to schedule a session with Alyssa or Doc.',
   },
   {
-    name: 'Tea',
-    description:
-      "Enjoy a hot cuppa. We're happy to serve you when someone's around, but otherwise help yourself.",
-  },
-  {
-    name: 'Black Rock House of Pizza',
-    description: 'Late night pizza delivery.',
+    name: 'Foot Bath',
+    description: 'A 40 foot cuddle pool.',
   },
 ];
 const Services: React.FunctionComponent<Props> = ({ classes }) => {

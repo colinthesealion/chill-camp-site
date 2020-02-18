@@ -19,14 +19,17 @@ const About: React.FunctionComponent<Props> = ({ classes }) => {
           enjoy some peace.
         </p>
         <p>
-          We are a group of veteran burners, but new to SOAK. Our camp consists
-          of the former organizers of Burning Man theme camps Tissue and a Plan
-          and The Embassy.
+          We are a group of veteran burners, back for our second year at SOAK.
+          Our camp consists of the former organizers of Burning Man theme camps
+          Tissue and a Plan and The Embassy.
         </p>
-        <p>Our theme for this year is chill the f out.</p>
         <p>
-          We will provide a cozy space to relax, take care of yourself, be
-          entertained and get taken care of.
+          Our theme for this year is chill the f out, but, like, more than last
+          year.
+        </p>
+        <p>
+          We will provide a cozy space to relax, take care of yourself and get
+          taken care of.
         </p>
         <p>
           Please see our{' '}

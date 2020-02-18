@@ -12,16 +12,16 @@ interface Props extends RouteComponentProps {
 }
 const events: EventProps[] = [
   {
-    name: 'Chilling 101',
-    description: 'Learn the basics of chilling out.',
+    name: 'Slow-Mo Disco',
+    description: 'Half-time beats to lull you into a groovy trance.',
   },
   {
-    name: 'Netflix & Chilli',
-    description: 'Watch movies with us. Vegan and meat chili served.',
+    name: 'Get Your Nails Did',
+    description: 'Pop-up nail salon.',
   },
   {
-    name: 'Advanced Chilling',
-    description: 'Master class in chilling out. Prerequisite: Chilling 101.',
+    name: 'Happy Budha Belly Hour',
+    description: 'Belly relaxation and self-love.',
   },
 ];
 const Events: React.FunctionComponent<Props> = ({ classes }) => {

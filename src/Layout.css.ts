@@ -7,10 +7,10 @@ const styles: Readonly<{ [key: string]: Readonly<{ [key: string]: any }> }> = {
   container: {
     position: 'relative',
     top: '5%',
-    width: 801,
+    width: 960,
     height: 'min-content',
     left: '50%',
-    marginLeft: -400.5,
+    marginLeft: -480,
   },
   content: {
     borderRadius: 15,

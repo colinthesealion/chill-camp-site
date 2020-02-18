@@ -19,7 +19,17 @@ const Home: React.FunctionComponent<Props> = ({ classes }) => {
         <div className={classes.header}>
           {CAMP_NAME}
           <br />
-          <span className={classes.subheader}>a theme camp</span>
+          <span className={classes.subheader}>Featuring Donnie Rex</span>
+          <br />
+          <span className={classes.subheader}>A Responsible Production</span>
+          <br />
+          <span className={classes.subheader}>
+            When the slowing gets tough, the tough get slowing
+          </span>
+          <br />
+          <span className={classes.subheader}>
+            Coming soon to own on DVD and Video
+          </span>
         </div>
         <Wave />
         <NavBar />
