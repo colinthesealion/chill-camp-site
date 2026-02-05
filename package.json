@@ -13,7 +13,7 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-jss": "^8.6.1",
-    "react-scripts": "2.1.5",
+    "react-scripts": "5.0.1",
     "react-spring": "^8.0.9",
     "typescript": "3.3.3333"
   },
